@@ -33,7 +33,7 @@ export default async function ProductPage({params}: {params: {slug: string}}){
                             <span className="mb-0.5 inline-block text-gray-500">
                                 {data.categoryName}    
                             </span>  
-                            <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">{data.name}</h2>
+                            <h2 className="mt-4 text-2xl font-bold text-gray-800 lg:text-3xl">{data.name}</h2>
                         </div>
                         {/* <div className="mb-6 flex items-center gap-3 md:mb-10">
                             <Button className="rounded-full gap-x-2">
@@ -47,6 +47,11 @@ export default async function ProductPage({params}: {params: {slug: string}}){
                                 <span className="text-xl font-bold text-gray-800 md:text-2xl">
                                 {data.price}€
                                 </span>
+                            </div>
+                            <p className="mt-12 text-base text-gray-500 tracking-wide" >{data.description}</p>
+                            <div className="mt-12 flex gap-2.5">
+                                <Button>Į krepšelį</Button>
+                                <Button variant={"secondary"}>Pirkti iš kart</Button>
                             </div>
                         </div>
                     </div>

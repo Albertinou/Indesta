@@ -8,5 +8,6 @@ export default {
       type: 'string',
       title: 'Prekės kategorijos pavadinimas',
     },
+    
   ],
 }

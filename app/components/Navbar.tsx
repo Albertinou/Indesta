@@ -7,8 +7,8 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { name: "Pradžia", href: "/" },
-  { name: "Apie mus", href: "/Aboutus" },
-  { name: "Produktai", href: "/Products" },
+  { name: "Montažiniai varžtai", href: "/Varztai" },
+  { name: "Klijai", href: "/Klijai" },
 ];
 export function Navbar() {
   const pathname = usePathname();
