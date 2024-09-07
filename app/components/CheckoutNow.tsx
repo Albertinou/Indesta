@@ -33,10 +33,12 @@ export default function CheckoutNow({
     }
 
     return (
-        <Button onClick={() => {
+        <Button 
+        variant={"secondary"}
+        onClick={() => {
             buyNow(product.price_id)
         }}>
-            Įdėti į krepšelį
+            Pirkti dabar
         </Button>
     )
 }
