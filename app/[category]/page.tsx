@@ -20,7 +20,7 @@ return data;
 
 }
 
-export const dynamic = "force-dynamic"
+export const fetchCache = 'force-no-store'
 
 export default async function CategoryPage({params}: {params: {category: string}}){
     const data: simplifiedProduct[] = await getData(params.category);
