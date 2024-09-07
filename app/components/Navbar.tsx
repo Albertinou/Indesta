@@ -4,14 +4,16 @@ import { Button } from "@/components/ui/button";
 import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useShoppingCart } from "use-shopping-cart";
 
 const links = [
   { name: "Pradžia", href: "/" },
-  { name: "Montažiniai varžtai", href: "/Varztai" },
+  { name: "Varžtai", href: "/Varztai" },
   { name: "Klijai", href: "/Klijai" },
 ];
 export function Navbar() {
   const pathname = usePathname();
+  const { handleCartClick } = useShoppingCart();
   return (
     <header className="mb-8 border-b">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
@@ -46,6 +48,7 @@ export function Navbar() {
           <Button
             variant={"outline"}
             className="flex flex-col gap-y-1.5 h-12 w-12 sm:w-20 sm:h-20 md:h-24 rounded-none"
+            onClick={() => handleCartClick()}
           >
             <ShoppingBag />
             <span className="hidden text-xs font-semibold text-gray-500 sm:block">

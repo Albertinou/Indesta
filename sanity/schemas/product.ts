@@ -34,6 +34,11 @@ export default {
       title: 'Prekės kaina',
     },
     {
+      name: "price_id",
+      type: "string",
+      title: "Nukopijuoti iš STRIPE -- Price ID"
+    },
+    {
       name: 'category',
       type: 'reference',
       title: 'Prekės kategorija',

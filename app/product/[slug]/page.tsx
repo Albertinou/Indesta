@@ -1,3 +1,4 @@
+import AddToBag from "@/app/components/AddToBag";
 import ImageGallery from "@/app/components/imageGallery";
 import { fullProduct } from "@/app/interface";
 import { client } from "@/app/lib/sanity";
@@ -13,7 +14,7 @@ async function getData(slug:string){
       description,
       "slug": slug.current,
       "categoryName": category->name,
-      
+      price_id
 }`;
     const data = await client.fetch(query);
 
@@ -50,7 +51,14 @@ export default async function ProductPage({params}: {params: {slug: string}}){
                             </div>
                             <p className="mt-12 text-base text-gray-500 tracking-wide" >{data.description}</p>
                             <div className="mt-12 flex gap-2.5">
-                                <Button>Į krepšelį</Button>
+                                <AddToBag 
+                                currency="EUR" 
+                                description={data.description} 
+                                image={data.images[0]} 
+                                name={data.name} 
+                                price={data.price} 
+                                key={data._id}
+                                price_id={data.price_id}/>
                                 <Button variant={"secondary"}>Pirkti iš kart</Button>
                             </div>
                         </div>
