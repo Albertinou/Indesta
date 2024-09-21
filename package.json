@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@sanity/image-url": "^1.0.2",
     "@stripe/stripe-js": "^4.3.0",
@@ -20,11 +22,14 @@
     "next-sanity": "^9.4.7",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "resend": "^4.0.0",
     "sanity-plugin-prefixed-slug": "^2.0.0",
     "stripe": "^16.8.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "use-shopping-cart": "^3.2.0"
+    "use-shopping-cart": "^3.2.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",

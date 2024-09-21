@@ -5,6 +5,7 @@ import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useShoppingCart } from "use-shopping-cart";
+import Image from "next/image";
 
 const links = [
   { name: "Pradžia", href: "/" },
@@ -18,9 +19,16 @@ export function Navbar() {
     <header className="mb-8 border-b">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
-          <h1 className="text-2xl md:text-4xl font-bold text-primary">
+          {/* <h1 className="text-2xl md:text-4xl font-bold text-primary">
             Indesta
-          </h1>
+          </h1> */}
+          <Image 
+            src="/images/indesta.png"
+            alt="Image1"
+            className="h-full w-full object-cover object-center"
+            width={100}
+            height={100}
+          />
         </Link>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
           {links.map((link, idx) => (
