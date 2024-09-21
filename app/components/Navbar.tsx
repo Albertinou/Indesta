@@ -23,7 +23,7 @@ export function Navbar() {
             Indesta
           </h1> */}
           <Image 
-            src="/images/indesta.png"
+            src={"/images/indesta.png"}
             alt="Image1"
             className="h-full w-full object-cover object-center"
             width={100}
