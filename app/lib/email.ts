@@ -11,8 +11,8 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
    
 try{
     const { error } = await resend.emails.send({
-        from: 'Albertas test <onboarding@resend.dev>',
-        to: 'albertuciukas@gmail.com',
+        from: 'MB-Indesta.lt <noreply@mb-indesta.lt>',
+        to: 'info@mb-indesta.lt',
         subject: 'Nauja žinutė iš puslapio!',
         react: EmailTemplate({ firstName: emailFormData.firstName, email: emailFormData.email, message: emailFormData.message }),
       });
