@@ -4,7 +4,7 @@ import Newest from "./components/Newest";
 import ContactForm from "./components/ContactForm";
 import AboutUs from "./components/AboutUs";
 import VideoHeroSection from "./components/VideoHeroSection";
-import Maps from "./components/Maps";
+import Maps from "./components/map/Maps";
 import Footer from "./components/Footer";
 
 export const fetchCache = 'force-no-store'
