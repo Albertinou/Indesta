@@ -29,13 +29,13 @@ export default function VideoHeroSection() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="text-center text-white">
           <h1 className="mb-4 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            Lorem Ipsum Dolor Sit Amet
+            Įgyvendiname žmonių norus ir svajones
           </h1>
           <p className="mb-8 text-lg sm:text-xl md:text-2xl">
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Karkasinių namų ir kitų medinių konstrukcijų statyba, renovacija, apdaila.
           </p>
           <button className="rounded bg-white px-6 py-2 font-semibold text-black transition-colors hover:bg-gray-200">
-            Learn More
+            Apie mus
           </button>
         </div>
       </div>
