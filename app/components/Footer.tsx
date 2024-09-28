@@ -4,7 +4,7 @@ import { SiFacebook } from '@icons-pack/react-simple-icons'
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-white to-gray-100 py-8">
+    <footer className="bg-gray-100 py-8">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-wrap -mx-4 mb-8">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">

@@ -2,8 +2,6 @@
 
 import "leaflet/dist/leaflet.css";
 import dynamic from "next/dynamic";
-
-import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import {Icon} from 'leaflet';
 
 
@@ -26,7 +24,7 @@ export default function Maps(){
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker 
             position={[55.906241, 21.137942]}
-            icon={new Icon({iconUrl : "Images/marker-icon.png", iconSize: [25, 41], iconAnchor: [12, 41]})}
+            icon={new Icon({iconUrl : "/Images/marker-icon.png", iconSize: [25, 41], iconAnchor: [12, 41]})}
             >
             </Marker>
         </MapContainer>
