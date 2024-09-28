@@ -7,11 +7,11 @@ import {Icon} from 'leaflet';
 
 // import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
-const MapContainer = dynamic(() => import("react-leaflet").then((mod) => mod.MapContainer),{ ssr: false});
+const MapContainer = dynamic(() => import("react-leaflet").then((mod) => mod.MapContainer),{ ssr: false });
 
-const TileLayer = dynamic(() => import("react-leaflet").then((mod) => mod.TileLayer),{ ssr: false});
+const TileLayer = dynamic(() => import("react-leaflet").then((mod) => mod.TileLayer),{ ssr: false });
 
-const Marker = dynamic(() => import("react-leaflet").then((mod) => mod.Marker),{ ssr: false});
+const Marker = dynamic(() => import("react-leaflet").then((mod) => mod.Marker),{ ssr: false });
 
 export default function Maps(){
     return(
