@@ -34,7 +34,7 @@ export default function AboutUs() {
   return (
     <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8" ref={ref}>
       <motion.div
-        className="max-w-7xl mx-auto"
+        className="max-w-6xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
         animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 1, ease: "easeOut" }}

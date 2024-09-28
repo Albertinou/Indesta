@@ -40,7 +40,7 @@ export default function ContactForm() {
     }
 
     return (
-        <Card className="w-full max-w-7xl mx-auto border-none">
+        <Card className="w-full max-w-7xl mx-auto border-none shadow-none pb-11">
             <CardHeader>
                 <CardTitle className="text-2xl font-bold text-center">Susisiekite su mumis!</CardTitle>
             </CardHeader>
