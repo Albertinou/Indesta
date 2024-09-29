@@ -20,8 +20,8 @@ export function GMap() {
       const { Marker } = await loader.importLibrary("marker") as google.maps.MarkerLibrary;
       
       const position = {
-        lat: 55.90665156197286, 
-        lng:  21.138705501739384
+        lat: 55.906385, 
+        lng: 21.137964
       }
 
       const mapOptions: google.maps.MapOptions = {

@@ -43,11 +43,11 @@ export default function AboutUs() {
           Apie mus
         </h2>
         <div className="mt-6 text-xl text-gray-500 space-y-6">
-          <p>&nbsp; Esame profesionalų komanda, specializuojanti karkasinių namų ir medinių konstrukcijų statyboje, renovacijoje bei apdailoje.</p>
-          <p>&nbsp; Mūsų tikslas - sukurti funkcionalius ir estetiškus namus, kurie atitiktų jūsų lūkesčius ir poreikius.</p>
+          <p>&nbsp; MB Indesta – tai patikima statybų įmonė, specializuojanti karkasinių namų statyboje Lietuvoje. Mūsų ilgametė patirtis Skandinavijoje sėkmingai pritaikoma vietinėje rinkoje, leidžianti mums užtikrinti aukščiausią statybos kokybę ir profesionalumą.</p>
+          <p>&nbsp; Kiekvieno projekto pradžioje mes išklausome Jūsų poreikius, norus ir lūkesčius, parengiame preliminarią darbų/medžiagų sąmatą.</p>
           Su didele patirtimi šioje srityje, mes puikiai išmanome medinių konstrukcijų ypatybes ir galimybes. Kiekvienas projektas mums yra svarbus, todėl stengiamės užtikrinti aukščiausią kokybę, naudojant tik geriausias medžiagas ir modernias technologijas.
-          <p>&nbsp; Mūsų komanda ne tik statybos specialistai, bet ir jūsų partneriai, pasirengę išklausyti, patarti ir įgyvendinti net drąsiausias idėjas. Džiaugiamės galėdami pasiūlyti individualius sprendimus, atitinkančius kiekvieno kliento unikalius poreikius.</p>
-          <p>&nbsp; Pasitikėkite mumis ir leiskite sukurti jūsų svajonių namus, kurie tarnaus ne tik jums, bet ir ateities kartoms. Kartu mes galime pasiekti nuostabių rezultatų!</p>
+          <p>&nbsp; Dirbdami, mes skiriame didelį dėmesį ne tik namų projektų įgyvendinimui, bet ir racionalioms karkasinių namų statybos technologijoms, siekdami optimaliai panaudoti išteklius ir laiką, todėl glaudžiai bendradarbiaujame su projektuotojais ir dizaineriais, kurie padeda priimti optimaliausius sprendimus Jūsų namų projektams.</p>
+          <p>&nbsp; Mūsų pagrindinis tikslas - pasitelkus tik kokybiškas medžiagas, pastatyti Jums tvirtą, patikimą ir taupantį šilumą namą.</p>
 
         </div>
       </motion.div>
