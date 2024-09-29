@@ -43,6 +43,7 @@ export default async function Newest(){
                                     className="w-full h-full object-cover object-center lg:h-full lg:w-full"
                                     width={300}
                                     height={300}
+                                    priority={true}
                                 />
                             </div>
 

@@ -22,7 +22,7 @@ export default function VideoHeroSection() {
         playsInline
         className="absolute top-0 left-0 min-h-full min-w-full object-cover"
       >
-        <source src="/Video/indesta_hero.mp4" type="video/mp4" />
+        <source src="/Video/indesta_hero2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-50" />

@@ -28,6 +28,7 @@ export function Navbar() {
             className="h-full w-full object-cover object-center"
             width={100}
             height={100}
+            
           />
         </Link>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
