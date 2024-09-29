@@ -43,11 +43,11 @@ export default function AboutUs() {
           Apie mus
         </h2>
         <div className="mt-6 text-xl text-gray-500 space-y-6">
-          <p>Esame profesionalų komanda, specializuojanti karkasinių namų ir medinių konstrukcijų statyboje, renovacijoje bei apdailoje.</p>
-          <p>Mūsų tikslas - sukurti funkcionalius ir estetiškus namus, kurie atitiktų jūsų lūkesčius ir poreikius.</p>
+          <p>&nbsp; &nbsp;Esame profesionalų komanda, specializuojanti karkasinių namų ir medinių konstrukcijų statyboje, renovacijoje bei apdailoje.</p>
+          <p>&nbsp; &nbsp;Mūsų tikslas - sukurti funkcionalius ir estetiškus namus, kurie atitiktų jūsų lūkesčius ir poreikius.</p>
           Su didele patirtimi šioje srityje, mes puikiai išmanome medinių konstrukcijų ypatybes ir galimybes. Kiekvienas projektas mums yra svarbus, todėl stengiamės užtikrinti aukščiausią kokybę, naudojant tik geriausias medžiagas ir modernias technologijas.
-          <p>Mūsų komanda ne tik statybos specialistai, bet ir jūsų partneriai, pasirengę išklausyti, patarti ir įgyvendinti net drąsiausias idėjas. Džiaugiamės galėdami pasiūlyti individualius sprendimus, atitinkančius kiekvieno kliento unikalius poreikius.</p>
-          <p>Pasitikėkite mumis ir leiskite sukurti jūsų svajonių namus, kurie tarnaus ne tik jums, bet ir ateities kartoms. Kartu mes galime pasiekti nuostabių rezultatų!</p>
+          <p>&nbsp; &nbsp;Mūsų komanda ne tik statybos specialistai, bet ir jūsų partneriai, pasirengę išklausyti, patarti ir įgyvendinti net drąsiausias idėjas. Džiaugiamės galėdami pasiūlyti individualius sprendimus, atitinkančius kiekvieno kliento unikalius poreikius.</p>
+          <p>&nbsp; &nbsp;Pasitikėkite mumis ir leiskite sukurti jūsų svajonių namus, kurie tarnaus ne tik jums, bet ir ateities kartoms. Kartu mes galime pasiekti nuostabių rezultatų!</p>
 
         </div>
       </motion.div>
