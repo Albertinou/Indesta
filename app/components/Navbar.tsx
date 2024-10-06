@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const links = [
   { name: "Pradžia", href: "/" },
-  { name: "Varžtai", href: "/Varztai" },
+  { name: "E-parduotuvė", href: "/AllProducts" },
   { name: "Klijai", href: "/Klijai" },
 ];
 export function Navbar() {
