@@ -7,6 +7,13 @@ export interface simplifiedProduct {
     name: string;
 }
 
+export interface simplifiedImage {
+    _id: string;
+    imageUrl: string;
+    slug: string;
+    name: string;
+}
+
 export interface fullProduct{
     _id: string;
     images: any;
