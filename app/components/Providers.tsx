@@ -15,9 +15,10 @@ export default function CartProvider({children}: {children: ReactNode}){
         successUrl="https://indesta.vercel.app/stripe/success"
         cancelUrl="https://indesta.vercel.app/stripe/error"
         currency="EUR"
-        billingAddressCollection={false}
+        billingAddressCollection={true}
         shouldPersist={true}
         language="lt"
+        
         >
             {children}
        

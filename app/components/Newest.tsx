@@ -29,7 +29,7 @@ export default async function Newest(){
                 <div className="flex justify-between items-center">
                     <h2 className="text-2xl font-bold tracking-tight text-gray-900">Naujausi mūsų produktai</h2>
                     
-                    <Link className="text-primary flex items-center gap-x-1" href="/VisiProduktai">Peržiūrėti visas prekes <span><ArrowRight /></span></Link>
+                    <Link className="text-primary flex items-center gap-x-1" href="/AllProducts">Peržiūrėti visas prekes <span><ArrowRight /></span></Link>
                     
                 </div>
 
