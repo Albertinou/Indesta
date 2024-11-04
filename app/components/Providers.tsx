@@ -11,7 +11,7 @@ export default function CartProvider({children}: {children: ReactNode}){
         <USCProvider 
         mode="payment" 
         cartMode="client-only" 
-        stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
+        stripe={process.env.NEXT_SECRET_STRIPE_KEY as string}
         successUrl="https://indesta.vercel.app/stripe/success"
         cancelUrl="https://indesta.vercel.app/stripe/error"
         currency="EUR"
